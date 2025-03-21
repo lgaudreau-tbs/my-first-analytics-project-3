@@ -95,6 +95,12 @@ with col3:
     st.metric(label="Total Distance (km)", value=f"{total_distance:,.2f}")
 
 
+# Afficher un aperçu des premières lignes du dataframe trips_merged
+st.write("### Preview of the Merged Trips DataFrame")
+st.write(trips_df_merged.head())
+
+
+
 
 
 
